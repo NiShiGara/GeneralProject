@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Игра "Ударь крота"</title>
+    <link rel="stylesheet" href="StyleWhack.css">
+    <script src="WhackJS.js"></script>
+</head>
+<body>
+
+//поле
+<section class="score" id="Score">Счет: 0</section>
+
+<div class="pole" id="pole1">
+ <div class="line">
+  <button class="OneButton" id="1"></button>
+  <button class="OneButton" id="2"></button>
+  <button class="OneButton" id="3"></button>
+  <button class="OneButton" id="4"></button>
+ </div>
+
+    <div class="line">
+        <button class="OneButton" id="5"></button>
+        <button class="OneButton" id="6"></button>
+        <button class="OneButton" id="7"></button>
+        <button class="OneButton" id="8"></button>
+    </div>
+
+    <div class="line">
+        <button class="OneButton" id="9"></button>
+        <button class="OneButton" id="10"></button>
+        <button class="OneButton" id="11"></button>
+        <button class="OneButton" id="12"></button>
+    </div>
+
+    <div class="line">
+        <button class="OneButton" id="13"></button>
+        <button class="OneButton" id="14"></button>
+        <button class="OneButton" id="15"></button>
+        <button class="OneButton" id="16"></button>
+    </div>
+</div>
+
+
+<input class="start" type="button" id="StartButton"  value="Начать игру" onclick="StartGame(0)">
+<input hidden class="start" type="button" id="StopButton"  value="Начать заново" onclick="StartGame(1)">
+
+<section class="textik"> Наберите 10 очков </section>
+
+
+
+</body>
+</html>

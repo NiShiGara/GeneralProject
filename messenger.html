@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+    <meta charset="UTF-8">
+    <title>Мой мессенджер</title>
+    <link rel="stylesheet" href="styleMes.css">
+</head>
+<body>
+
+<script src="messenger.js"></script>
+<img src="2.jpg" height="710" width="1520"/>
+
+    <div hidden class="messages" id="messages"></div>
+
+    <div hidden class="messages" id="messages2"></div>
+
+    <input hidden  type="text" class="message-form" id ="message-form" placeholder="Type your message here">
+    <input hidden  class="submit" value="Send" id ="submit" onclick="AddToLocalMessageAndPrint()" type="button">
+
+    <input hidden  type="text" class="message-form" id ="message-form2" placeholder="Type your message here">
+    <input hidden  class="submit" value="Send" id ="submit2" onclick="AddToLocalMessageAndPrint2()" type="button">
+
+    <input class="person1" type="button" id="Person1"  value="Чат с local" onclick="FirstWindow()">
+    <input class="person2" type="button" id="Person2"  value="Чат с Олегом" onclick="SecondWindow()">
+
+    <input class="CryStyle" type="button"  value="Лицо автора после создания мессенджера" onclick="window.location.href = 'https://sun9-3.userapi.com/impg/sBbbYO5PnaB2CCKnqmP0SKrAmlD74uUeu-PK7A/u0ESwBz4Ohw.jpg?size=974x693&quality=96&sign=acc28f780b31b4163827d7ab5da99803&type=album';">
+</body>
+</html>

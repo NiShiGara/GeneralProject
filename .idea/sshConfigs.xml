@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="165.22.57.246" id="e58d29d1-3832-4be3-a824-2fdc9ee208d7" keyPath="C:\Users\Huawei\Desktop\учёба\сетевые\keey" port="22" nameFormat="DESCRIPTIVE" username="nishi" />
+    </configs>
+  </component>
+</project>
