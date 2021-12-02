@@ -1,1 +1,1 @@
-console.log("fd");
+console.log("chto tut proishodit");
