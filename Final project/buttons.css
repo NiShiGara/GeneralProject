@@ -1,0 +1,119 @@
+
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+.socialbtns{
+    min-width: 1348px;
+    max-width: none;
+    display: flex;
+    justify-content: center;
+}
+
+a, a:hover {
+    color: #000;
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 80px;
+}
+
+.socialbtnsbtnsbtns, .socialbtnsbtnsbtns ul, .socialbtnsbtnsbtns li {
+
+    padding: 5px;
+}
+
+.socialbtnsbtnsbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns .fa {
+    color: #FFF;
+    text-shadow: 1px 1px 0px #000,
+    1px -1px 0px #000,
+    -1px 1px 0px #000,
+    -1px -1px 0px #000;
+    -webkit-text-shadow: 1px 1px 0px #000,
+    1px -1px 0px #000,
+    -1px 1px 0px #000,
+    -1px -1px 0px #000;
+    -moz-text-shadow: 1px 1px 0px #000,
+    1px -1px 0px #000,
+    -1px 1px 0px #000,
+    -1px -1px 0px #000;
+    -o-text-shadow: 1px 1px 0px #000,
+    1px -1px 0px #000,
+    -1px 1px 0px #000,
+    -1px -1px 0px #000;
+    transition: all ease-out 0.5s;
+    -moz-transition: all ease-out 0.5s;
+    -webkit-transition: all ease-out 0.5s;
+    -o-transition: all ease-out 0.5s;
+}
+
+.socialbtns .fa:hover {
+    color: #000;
+    text-shadow: 1px 1px 0px #fff,
+    1px -1px 0px #fff,
+    -1px 1px 0px #fff,
+    -1px -1px 0px #fff;
+    -webkit-text-shadow: 1px 1px 0px #fff,
+    1px -1px 0px #fff,
+    -1px 1px 0px #fff,
+    -1px -1px 0px #fff;
+    -moz-text-shadow: 1px 1px 0px #fff,
+    1px -1px 0px #fff,
+    -1px 1px 0px #fff,
+    -1px -1px 0px #fff;
+    -o-text-shadow: 1px 1px 0px #fff,
+    1px -1px 0px #fff,
+    -1px 1px 0px #fff,
+    -1px -1px 0px #fff;
+    transition: all ease 0.5s;
+    -moz-transition: all ease-in 0.5s;
+    -webkit-transition: all ease-in 0.5s;
+    -o-transition: all ease-in 0.5s;
+}
+
+.MenuButton {
+    color: #dddddd;
+    font: bold 17px Candara;
+    background-color: transparent;
+    text-decoration: none;
+    border: 2px solid transparent;
+    transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    padding: 4px 35px;
+    outline: none;
+}
+
+.MenuButton:hover {
+    color:white;
+    background-color: #5c0403;;
+    outline: none;
+    transition-duration: .2s;
+    -webkit-transition-duration: .11s;
+    -moz-transition-duration: .2s;
+}
+
+button.MenuButton {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.arrows{
+    width: 100px;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid transparent;
+}
+
+.arrows:hover {
+    outline: none;
+    background-color: transparent;
+}
+

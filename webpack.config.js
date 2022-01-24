@@ -1,5 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
+const resolve = require("resolve");
 
 module.exports = {
     entry: './src/index.js',
@@ -9,4 +10,7 @@ module.exports = {
     },
     plugins: [new HtmlWebpackPlugin()],
     mode: 'production',
+
 };
+resolve.fallback = { "buffer": false }
+
