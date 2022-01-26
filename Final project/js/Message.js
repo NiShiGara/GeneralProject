@@ -49,9 +49,10 @@ export default function Message(x) {
 
             }
 
-            if (TextForm.value == "Отзыв") {
+            if ((TextForm.value == "Отзыв")||(TextForm.value == "отзыв"))  {
                 document.getElementById('Feedback').style.visibility = "visible"
-            } else if (TextForm.value == "Хихи") {
+            } else if ((TextForm.value == "Хихи")||(TextForm.value == "хихи"))
+            {
                 document.location.href = " https://vk.com/wall-159146575_3480805";
             }
 
