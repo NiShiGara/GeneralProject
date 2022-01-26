@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <title>Final project</title>
-    <link rel="stylesheet" href="Main style.css">
-    <link rel="stylesheet" href="buttons.css">
-    <script src="Main page.js"></script>
+    <script src="Main.js"></script>
     <script src="https://kit.fontawesome.com/df42ebe1e0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/MainStyle.css">
 </head>
 <body>
 
@@ -15,11 +15,10 @@
         <ul>
             <li><Text><button class="MenuButton" onclick="window.location.href = 'Main page.html';">Main</button></Text></li>
             <li><Text><button class="MenuButton">Delivery</button></Text></li>
-            <li><Text><button class="MenuButton">Gallery</button></Text></li>
+            <li><Text><button class="MenuButton" onclick="window.location.href = 'Gallery.html';">Gallery</button></Text></li>
             <li><Text><button class="MenuButton" onclick="window.location.href = 'Promotion.html';"> Promotion</button></Text></li>
         </ul>
 </div>
-
 <div class="Second_block_Logo">
         <img src="img/logo.jpg" height="183" width="187"/>
         <Text>Delivery in Tokyo and Kyoto</Text>
@@ -49,25 +48,17 @@
             <br>Payment by card, cash payment to the courier!
         </Text>
 
-    <Slide><img src="img/MainPic_Slide.jpg" height="580" width="520"/> </Slide>
-    <Arrow_right><button href="#" class="arrows" ><img src="img/arrow-right.png" height="57" width="58"/></button></Arrow_right>
-    <Arrow_left><button href="#" class="arrows" ><img src="img/arrow-left.png" height="57" width="58"/></button></Arrow_left>
+    <Slide><img id ="pic" src="img/MainPic_Slide.jpg" height="580" width="520"/>
+        <img hidden id ="pic2" src="img/MainPic_Slide_2.jpg" height="580" width="520"/>
+    </Slide>
+    <Arrow_right><button id ="right_arrow" class="arrows" ><img src="img/arrow-right.png" height="57" width="58"/></button></Arrow_right>
+    <Arrow_left><button id ="left_arrow" class="arrows" ><img src="img/arrow-left.png" height="57" width="58"/></button></Arrow_left>
 </div>
 
 <div class="Fourth_block_our_dishes">
         <Text>OUR DISHES</Text>
-
-        <Top_container>
-            <img src="img/MainPic_dishes_1.jpg" height="450" width="300">
-            <img src="img/MainPic_dishes_2.jpg" height="450" width="300"/>
-            <img src="img/MainPic_dishes_3.jpg" height="450" width="300"/>
-            <img src="img/MainPic_dishes_4.jpg" height="450" width="300"/>
-        </Top_container>
-
-        <Bottom_container>
-            <img src="img/MainPic_dishes_5.jpg" height="450" width="300"/>
-            <img src="img/MainPic_dishes_6.jpg" height="450" width="300"/>
-        </Bottom_container>
+    <div class ="Top_container" id ="Top_container"></div>
+    <div class ="Bottom_container" id ="Bottom_container"></div>
 </div>
 
 <div class ="Fifth_block_rights_sites">
@@ -82,13 +73,25 @@
     <Text> Site Designed by Sorokina P.D. | All rights reserved</Text>
 </div>
 
-<div class ="Sixth_block_promo">
-    <div class ="one_block">
-        <div class ="pic">
+<div class ="Sixth_block_message">
+    <div class ="one_block" id = "one_block">
+        <input class="CloseButton" id = "CloseButton" type="button">
+        <div class ="message_window" id = "message_window"></div>
+        <div class ="form-send_window">
+            <input type="text" class="message_form" id = "message_form"  placeholder="Your message...">
+            <input class="send" id = "send" type="button">
         </div>
     </div>
+    <div class ="minimize_message_window" id = "minimize_message_window"></div>
 </div>
 
+<div class ="Feedback" id = "Feedback">
+    <div class = "FeedbackWindow">
+        <FeedbackText>Feedback</FeedbackText>
+        <input type="text" class="feedbackForm" id = "feedbackForm"  placeholder="Your feedback about us...">
+        <input class="FeedbackSend" id = "FeedbackSend" type="button" value="Send">
+    </div>
+</div>
 
 </body>
 </html>

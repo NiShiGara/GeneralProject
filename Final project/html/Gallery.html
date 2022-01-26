@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Gallery</title>
+    <script type="module" src="js/Gallery.js"></script>
+    <script src="https://kit.fontawesome.com/df42ebe1e0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/buttons.css">
+    <link rel="stylesheet" href="../css/MainStyle.css">
+</head>
+<body>
+
+<div class = "Top_menu">
+    <ul>
+        <li><Text><button class="MenuButton" onclick="window.location.href = 'Main page.html';">Main</button></Text></li>
+        <li><Text><button class="MenuButton">Delivery</button></Text></li>
+        <li><Text><button class="MenuButton" onclick="window.location.href = 'Gallery.html';">Gallery</button></Text></li>
+        <li><Text><button class="MenuButton" onclick="window.location.href = 'Promotion.html';"> Promotion</button></Text></li>
+    </ul>
+</div>
+
+<div class="Second_block_Logo">
+    <img src="img/logo.jpg" height="183" width="187"/>
+    <Text>Delivery in Tokyo and Kyoto</Text>
+</div>
+
+<div class="Catalog_menu">
+    <ul>
+        <li><Text><button class="MenuButton">Sushi sets</button></Text></li>
+        <li><Text><button class="MenuButton">Sushi</button></Text></li>
+        <li><Text><button class="MenuButton">Rolls</button></Text></li>
+        <li><Text><button class="MenuButton">Drinks</button></Text></li>
+        <li><Text><button class="MenuButton">Soups</button></Text></li>
+        <li><Text><button class="MenuButton">Desserts</button></Text></li>
+    </ul>
+</div>
+
+<div class ="Gallery_block">
+    <div class ="Gallery_block_pictures" id = "Gallery_block_pictures">
+    </div>
+</div>
+<div class ="Fifth_block_rights_sites">
+
+    <div class="socialbtns">
+        <ul>
+            <li><a href="#" class="fa fa-lg fa-twitter"></a></li>
+            <li><a href="#" class="fa fa-lg fa-github"></a></li>
+            <li><a href="#" class="fa fa-lg fa-instagram"></a></li>
+        </ul>
+    </div>
+    <Text> Site Designed by Sorokina P.D. | All rights reserved</Text>
+</div>
+
+
+<div class ="Sixth_block_message">
+    <div class ="one_block" id = "one_block">
+        <input class="CloseButton" id = "CloseButton" type="button">
+        <div class ="message_window" id = "message_window"></div>
+        <div class ="form-send_window">
+            <input type="text" class="message_form" id = "message_form"  placeholder="Your message...">
+            <input class="send" id = "send" type="button">
+        </div>
+    </div>
+    <div class ="minimize_message_window" id = "minimize_message_window"></div>
+</div>
+
+<div class ="Feedback" id = "Feedback">
+    <div class = "FeedbackWindow">
+        <FeedbackText>Feedback</FeedbackText>
+        <input type="text" class="feedbackForm" id = "feedbackForm"  placeholder="Your feedback about us...">
+        <input class="FeedbackSend" id = "FeedbackSend" type="button" value="Send">
+    </div>
+</div>
+
+
+</body>
+</html>

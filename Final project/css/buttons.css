@@ -1,5 +1,5 @@
 
-@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+/*@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');*/
 
 .socialbtns{
     min-width: 1348px;
@@ -114,6 +114,50 @@ button.MenuButton {
 
 .arrows:hover {
     outline: none;
+    background-color: transparent;
+}
+
+.FeedbackSend
+{
+    color: white;
+    font: bold 20px Candara;
+    text-shadow: 1px 1px 3px rgba(93,15,6,0.85);
+    margin-top: 20px;
+    align-self: center;
+    width: 100px;
+    background-color: rgba(180,18,6,0.85);
+    border: none;
+
+}
+
+.FeedbackSend:hover
+{
+    background-color: rgba(114,15,5,0.85);
+}
+
+.Sixth_block_message .one_block .form-send_window .send
+{
+    width: 53px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.Sixth_block_message .one_block .form-send_window .send:hover {
+    outline: none;
+    background-color: rgba(0,0,0,0.03);
+}
+
+.CloseButton
+{
+    position: absolute;
+    margin-left: 305px;
+    margin-top: 30px;
+    width: 23px;
+    height: 20px;
+    outline: none;
+    border: none;
     background-color: transparent;
 }
 

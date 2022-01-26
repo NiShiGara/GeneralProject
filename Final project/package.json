@@ -1,0 +1,22 @@
+{
+  "name": "final-project",
+  "version": "1.0.0",
+  "main": "Main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "parcel MainPage.html",
+    "build": "parcel build MainPage.html --no-minify"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kyushu-haikunator": "^0.2.1"
+  },
+  "type": "commonjs",
+  "devDependencies": {
+    "cssnano": "^5.0.16",
+    "postcss": "^8.4.5"
+  },
+  "keywords": [],
+  "description": ""
+}
