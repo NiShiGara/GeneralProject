@@ -1,5 +1,5 @@
 export default function AJAX(name, container) {
-    fetch('/picture.json').then(response => {
+    fetch('/Final project/picture.json').then(response => {
         response.json().then(result => {
             let arr;
             if (name == "Top_pics_for_catalog"){

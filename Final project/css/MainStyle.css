@@ -34,7 +34,7 @@ li {
 }
 
 .Second_block_Logo{
-    padding: 0px 1150px 0px 0px;
+    padding: 0px 990px 0px 0px;
     position: absolute;
     top:60px;
     left:130px;
@@ -359,6 +359,7 @@ FeedbackText
 
 .Gallery_block
 {
+    min-width: 1348px;
     width: auto;
     height: 1000px;
     background-color: rgba(6,6,6,0.73);

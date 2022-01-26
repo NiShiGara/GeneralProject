@@ -34,12 +34,12 @@ export default function Message(x) {
                     break;
                 case 2:
                     OneMessage2.className = "OneMessageConsultant"
-                    OneMessage2.append('Если Вы хотите отправить свой отзыв о нашем ресторане, напишите "Отзыв". Если увидеть мем, напишите "Мем"')
+                    OneMessage2.append('Если Вы хотите отправить свой отзыв о нашем ресторане, напишите "Отзыв". Если увидеть смишнявку, напишите "Хихи"')
                     MessageBox.append(OneMessage2)
                     x = 3
                     break;
                 case 3:
-                    if ((TextForm.value != "Отзыв") && (TextForm.value != "Мем")) {
+                    if ((TextForm.value != "Отзыв") && (TextForm.value != "Хихи")) {
                         OneMessage2.className = "OneMessageConsultant"
                         OneMessage2.append('До свидания, всего доброго')
                         MessageBox.append(OneMessage2)
@@ -51,7 +51,8 @@ export default function Message(x) {
 
             if (TextForm.value == "Отзыв") {
                 document.getElementById('Feedback').style.visibility = "visible"
-            } else if (TextForm.value == "Мем") {
+            } else if (TextForm.value == "Хихи") {
+                document.location.href = " https://vk.com/wall-159146575_3480805";
             }
 
             var block = document.getElementById('message_window');
