@@ -1,5 +1,5 @@
-import AJAX from 'C:/Users/Huawei/WebstormProjects/Site/Final project/js/AJAX.js';
-import Message from 'C:/Users/Huawei/WebstormProjects/Site/Final project/js/Message.js';
+import AJAX from '/Final project/js/AJAX.js';
+import Message from '/Final project/js/Message.js';
 
 window.onload = function() {
     let top_container = document.getElementById("Gallery_block_pictures");
