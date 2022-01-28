@@ -1,5 +1,5 @@
 export default function Message(x) {
-    document.getElementById("send").onclick = function () {
+    document.getElementById("send").onclick = async function () {
 
         //форма для ввода сообщения
         let TextForm = document.getElementById('message_form')
@@ -16,13 +16,11 @@ export default function Message(x) {
             OneMessage.append(Text)
             MessageBox.append(OneMessage)
 
-
+            await sleep(800);
             switch (x) {
                 case 0:
-
                     OneMessage2.className = "OneMessageConsultant"
                     OneMessage2.append('Здраствуйте!')
-
                     MessageBox.append(OneMessage2)
                     x = 1
                     break;
@@ -49,10 +47,9 @@ export default function Message(x) {
 
             }
 
-            if ((TextForm.value == "Отзыв")||(TextForm.value == "отзыв"))  {
+            if ((TextForm.value == "Отзыв") || (TextForm.value == "отзыв")) {
                 document.getElementById('Feedback').style.visibility = "visible"
-            } else if ((TextForm.value == "Хихи")||(TextForm.value == "хихи"))
-            {
+            } else if ((TextForm.value == "Хихи") || (TextForm.value == "хихи")) {
                 document.location.href = " https://vk.com/wall-159146575_3480805";
             }
 
@@ -74,5 +71,9 @@ export default function Message(x) {
     document.getElementById("minimize_message_window").onclick= function() {
         document.getElementById('one_block').style.visibility = "visible";
         document.getElementById('minimize_message_window').style.visibility = "hidden";
+    }
+
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
     }
 }
