@@ -7,8 +7,7 @@
 1. Для запуска веб-сайта необходимо установить node.js и npm. [Установка.](https://nodejs.org/ru/download/)
 2. Ввести команду: ```https://github.com/NiShiGara/GeneralProject/tree/master/Final%20project```
 3. Установить сборщик: ```npm install -g parcel-bundler```
-4. Собрать проект: ```parcel index.html```
-5. Запустить сервер: ```npm run watch```
+4. Собрать проект: ```parcel MainPage.html```
 
 ## Architecture
 /.cache - директория с кешем
